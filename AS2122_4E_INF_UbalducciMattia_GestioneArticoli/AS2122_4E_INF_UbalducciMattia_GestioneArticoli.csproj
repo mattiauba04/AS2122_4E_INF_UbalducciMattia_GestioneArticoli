@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AS2122_4E_INF_UbalducciMattia_GestioneArticoli.Library\AS2122_4E_INF_UbalducciMattia_GestioneArticoli.Library.csproj" />
+  </ItemGroup>
+
 </Project>
