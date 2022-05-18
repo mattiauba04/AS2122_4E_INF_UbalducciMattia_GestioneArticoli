@@ -25,6 +25,8 @@ namespace AS2122_4E_INF_UbalducciMattia_GestioneArticoli
             {
                 articoli.Add(txtCodice.Text, new Articolo(txtCodice.Text, cmbUnitaDiMisura.Text, txtDescrizione.Text, Convert.ToDouble(txtPrezzo.Text)));
             }
+
+           lblArticolo.Text="Articolo("+ articoli.Count.ToString() + ")";
         }
 
         private void btnVisualizza_Click(object sender, EventArgs e)
