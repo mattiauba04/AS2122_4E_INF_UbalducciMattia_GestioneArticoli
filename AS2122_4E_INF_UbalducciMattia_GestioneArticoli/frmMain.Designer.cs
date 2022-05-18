@@ -105,6 +105,11 @@
             // cmbUnitaDiMisura
             // 
             this.cmbUnitaDiMisura.FormattingEnabled = true;
+            this.cmbUnitaDiMisura.Items.AddRange(new object[] {
+            "NR",
+            "KG",
+            "Q",
+            "T"});
             this.cmbUnitaDiMisura.Location = new System.Drawing.Point(170, 168);
             this.cmbUnitaDiMisura.Name = "cmbUnitaDiMisura";
             this.cmbUnitaDiMisura.Size = new System.Drawing.Size(121, 23);
@@ -132,6 +137,8 @@
             // cmbVisualizza
             // 
             this.cmbVisualizza.FormattingEnabled = true;
+            this.cmbVisualizza.Items.AddRange(new object[] {
+            "Visualizza Articoli"});
             this.cmbVisualizza.Location = new System.Drawing.Point(551, 93);
             this.cmbVisualizza.Name = "cmbVisualizza";
             this.cmbVisualizza.Size = new System.Drawing.Size(121, 23);
@@ -154,6 +161,7 @@
             this.btnVisualizza.TabIndex = 13;
             this.btnVisualizza.Text = "...";
             this.btnVisualizza.UseVisualStyleBackColor = true;
+            this.btnVisualizza.Click += new System.EventHandler(this.btnVisualizza_Click);
             // 
             // grbDettagliArticolo
             // 
