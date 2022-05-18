@@ -6,5 +6,10 @@ namespace AS2122_4E_INF_UbalducciMattia_GestioneArticoli
         {
             InitializeComponent();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
