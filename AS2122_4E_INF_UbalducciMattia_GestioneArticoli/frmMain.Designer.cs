@@ -118,6 +118,7 @@
             this.btnAggiungiModifica.TabIndex = 8;
             this.btnAggiungiModifica.Text = "Aggiungi/modifica articolo";
             this.btnAggiungiModifica.UseVisualStyleBackColor = true;
+            this.btnAggiungiModifica.Click += new System.EventHandler(this.btnAggiungiModifica_Click);
             // 
             // lblArticolo
             // 
