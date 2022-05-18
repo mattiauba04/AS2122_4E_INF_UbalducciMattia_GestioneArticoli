@@ -152,6 +152,7 @@
             this.lstVisualizza.Name = "lstVisualizza";
             this.lstVisualizza.Size = new System.Drawing.Size(201, 229);
             this.lstVisualizza.TabIndex = 12;
+            this.lstVisualizza.SelectedIndexChanged += new System.EventHandler(this.lstVisualizza_SelectedIndexChanged);
             // 
             // btnVisualizza
             // 
